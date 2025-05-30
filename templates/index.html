@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with AI Personas</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg-black flex flex-col items-center justify-center min-h-screen p-6 relative overflow-hidden">
+    <!-- Background Effects -->
+    <div class="gradient-background">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+    </div>
+    <div class="noise-overlay"></div>
+    <div class="grid-overlay"></div>
+    <div class="glow"></div>
+    <div class="particles-container" id="particles-container"></div>
+
+    <!-- Main Content -->
+    <div class="content-container relative z-10">
+        <!-- Gradient Heading -->
+        <h1 class="text-4xl font-bold text-center mb-12 gradient-heading">
+            Chat with Persona built AI Agents
+        </h1>
+
+        <!-- Persona Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full">
+            <!-- Hitesh Card -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col items-center p-6">
+                <img src="{{ personas['hitesh'].dp_photo }}" alt="Hitesh Choudhary" class="w-24 h-24 rounded-full mb-4">
+                <h2 class="text-xl font-semibold mb-2">Chat with Hitesh Sir</h2>
+                <button class="start-btn bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600" data-persona="hitesh">Start</button>
+            </div>
+            <!-- Piyush Card -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col items-center p-6">
+                <img src="{{ personas['piyush'].dp_photo }}" alt="Piyush Garg" class="w-24 h-24 rounded-full mb-4">
+                <h2 class="text-xl font-semibold mb-2">Chat with Piyush Sir</h2>
+                <button class="start-btn bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600" data-persona="piyush">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
