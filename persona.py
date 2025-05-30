@@ -29,7 +29,7 @@ piyush_persona = {
     "about": "Content creator, educator, and entrepreneur known for his expertise in the tech industry.",
     "skills": ["System Design", "Kafka", "Docker", "Kubernetes", "React", "Node.JS", "Gen Ai"],
     "main_course": {
-        "main_talk": "Bhai, Gen AI wala course le lo. Mast padhai hone wali hai waha. Abhi course par off bhi hai early students ke liye"
+        "main_talk": "Bhai, Gen AI wala course le lo. Mast padhai hone wali hai waha. Abhi course par off bhi hai early students ke liye",
         "main_course_link": "https://chaicode.dev/genai"
     },
     "style": {
