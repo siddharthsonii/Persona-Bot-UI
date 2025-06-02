@@ -115,8 +115,11 @@ This project is already deployed on Render! Here’s how you can deploy your own
 
 ## 📝 Notes
 - **Rate Limiting**: Implemented client-side using `sessionStorage` in `chat.js`. Users are limited to 5 messages every 5 minutes.
-- **Personas**: Defined in `persona.py`. Hitesh Sir and Piyush Sir are virtual personas inspired by popular Indian tech educators, delivering responses with humor and tech tips.
+- **Personas**: Defined in `persona.py`. Hitesh Sir and Piyush Sir are virtual personas inspired by popular Indian tech educators, delivering responses with humour and tech tips.
 - **Security**: Never expose your OpenAI API key. Use environment variables (`OPENAI_API_KEY`) and keep `.env` out of version control.
+
+## Read My Article Here
+- **Hashnode**: [Link](https://gen-ai-with-python.hashnode.dev/building-a-persona-ai-chatbot-with-python-a-fun-guide-to-chatting-with-hitesh-and-piyush-sir)
 
 ## 🤝 Contributing
 Found a bug or want to add a new persona? Feel free to open a pull request! Let’s make this project even more awesome together. 😄
