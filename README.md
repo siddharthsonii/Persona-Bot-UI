@@ -1,6 +1,6 @@
-# AI Chatbot with Hitesh & Piyush 🤖💬
+# AI Chatbot with Hitesh & Piyush Sir 🤖💬
 
-Welcome to the **AI Chatbot** project—a fun web app where you can chat with virtual versions of your favorite tech gurus, Hitesh Choudhary and Piyush Garg! Built with Python, Flask, and OpenAI's API, this chatbot lets you ask tech questions (or anything, really) and get responses in their signature style—complete with humor and a coding tip at the end. 🎉
+Welcome to the **AI Chatbot** project—a fun web app where you can chat with virtual versions of your favourite tech gurus, Hitesh Choudhary and Piyush Garg! Built with Python, Flask, and OpenAI's API, this chatbot lets you ask tech questions (or anything, really) and get responses in their signature style—complete with humour and a coding tip at the end. 🎉
 
 This project is deployed on [Render](https://your-project-name.onrender.com) (replace with your actual Render URL after deployment). Let's dive into what this project is all about and how you can run it locally!
 
@@ -8,7 +8,7 @@ This project is deployed on [Render](https://your-project-name.onrender.com) (re
 - **Chat with Personas**: Choose between Hitesh Sir or Piyush Sir and chat with them via a sleek web interface.
 - **AI-Powered Responses**: Powered by OpenAI's GPT-4o model for smart, conversational replies.
 - **Rate Limiting**: Users can send only 5 messages every 5 minutes (bhai, thoda control rakho! 😅).
-- **Fun & Engaging**: Responses include humor and a coding/tech tip, just like Hitesh and Piyush's teaching style.
+- **Fun & Engaging**: Responses include humour and a coding/tech tip, just like Hitesh and Piyush's teaching style.
 - **Responsive Design**: Glassmorphism UI with particle effects for a modern look.
 
 ## 🖥️ Tech Stack
