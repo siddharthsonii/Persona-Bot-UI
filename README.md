@@ -118,7 +118,7 @@ This project is already deployed on Render! Here’s how you can deploy your own
 - **Personas**: Defined in `persona.py`. Hitesh Sir and Piyush Sir are virtual personas inspired by popular Indian tech educators, delivering responses with humour and tech tips.
 - **Security**: Never expose your OpenAI API key. Use environment variables (`OPENAI_API_KEY`) and keep `.env` out of version control.
 
-## Read My Article Here
+## 📰 Read My Article Here
 - **Hashnode**: [Link](https://gen-ai-with-python.hashnode.dev/building-a-persona-ai-chatbot-with-python-a-fun-guide-to-chatting-with-hitesh-and-piyush-sir)
 
 ## 🤝 Contributing
