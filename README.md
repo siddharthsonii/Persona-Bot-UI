@@ -121,6 +121,11 @@ This project is already deployed on Render! Here’s how you can deploy your own
 ## 📰 Read My Article Here
 - **Hashnode**: [Link](https://gen-ai-with-python.hashnode.dev/building-a-persona-ai-chatbot-with-python-a-fun-guide-to-chatting-with-hitesh-and-piyush-sir)
 
+## 📸 Product Screenshots
+![ss1](https://github.com/user-attachments/assets/6cd06cc9-5bb7-4c0f-bb9e-0c78ff3a2cba)
+![ss2](https://github.com/user-attachments/assets/2bc27f1c-0953-4e8b-9cab-d2b9ee769e8a)
+![ss3](https://github.com/user-attachments/assets/bbb1a033-4b86-48bb-94b7-052bc23b1277)
+
 ## 🤝 Contributing
 Found a bug or want to add a new persona? Feel free to open a pull request! Let’s make this project even more awesome together. 😄
 
