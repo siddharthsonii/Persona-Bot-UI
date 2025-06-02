@@ -2,7 +2,7 @@
 
 Welcome to the **AI Chatbot** project—a fun web app where you can chat with virtual versions of your favourite tech gurus, Hitesh Choudhary and Piyush Garg! Built with Python, Flask, and OpenAI's API, this chatbot lets you ask tech questions (or anything, really) and get responses in their signature style—complete with humour and a coding tip at the end. 🎉
 
-This project is deployed on [Render](https://your-project-name.onrender.com) (replace with your actual Render URL after deployment). Let's dive into what this project is all about and how you can run it locally!
+This project is deployed on [Render](https://persona-bot-ui.onrender.com) (replace with your actual Render URL after deployment). Let's dive into what this project is all about and how you can run it locally!
 
 ## 🚀 Features
 - **Chat with Personas**: Choose between Hitesh Sir or Piyush Sir and chat with them via a sleek web interface.
@@ -24,19 +24,14 @@ ai_chatbot/
 ├── app.py              # Main Flask app
 ├── persona.py          # Persona definitions (Hitesh & Piyush)
 ├── requirements.txt    # Python dependencies
-├── Procfile            # For Render/Production deployment
 ├── templates/          # HTML templates
-│   ├── landing.html
-│   ├── cards.html
+│   ├── index.html
 │   ├── chat.html
 ├── static/             # Static files (CSS, JS, images)
 │   ├── style.css
 │   ├── script.js
 │   ├── chat.js
-│   ├── landing.js
 │   ├── double-ticks.png
-│   ├── hitesh.jpg
-│   ├── piyush.jpg
 └── README.md           # You're reading this!
 ```
 
@@ -102,10 +97,6 @@ This project is already deployed on Render! Here’s how you can deploy your own
 
 1. **Push to GitHub**:
    - Ensure your repository is on GitHub (without the `.env` file).
-   - Add a `Procfile` (already included):
-     ```
-     web: gunicorn app:app
-     ```
 
 2. **Create a Render Account**:
    - Sign up at [Render](https://render.com/).
@@ -116,7 +107,7 @@ This project is already deployed on Render! Here’s how you can deploy your own
    - Set the following:
      - **Runtime**: Python 3
      - **Build Command**: `pip install -r requirements.txt`
-     - **Start Command**: `gunicorn app:app`
+     - **Start Command**: `python app.py`
    - Add an environment variable in Render’s dashboard:
      - Key: `OPENAI_API_KEY`
      - Value: Your OpenAI API key
@@ -131,7 +122,7 @@ This project is already deployed on Render! Here’s how you can deploy your own
 Found a bug or want to add a new persona? Feel free to open a pull request! Let’s make this project even more awesome together. 😄
 
 ## 📧 Contact
-Have questions? Reach out to me on [Twitter](https://twitter.com/your-username) or [LinkedIn](https://linkedin.com/in/your-username). Let’s sip chai and code together! ☕
+Have questions? Reach out to me on [LinkedIn](https://www.linkedin.com/in/siddharthsonii/). Let’s sip chai and code together! ☕
 
 ## 🙏 Acknowledgements
 - Inspired by Hitesh Choudhary and Piyush Garg’s amazing teaching style.
