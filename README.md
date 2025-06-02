@@ -15,7 +15,7 @@ This project is deployed on [Render](https://persona-bot-ui.onrender.com) (repla
 - **Backend**: Python, Flask
 - **Frontend**: HTML, CSS, JavaScript
 - **AI**: OpenAI API (GPT-4o)
-- **Dependencies**: `flask`, `openai`, `python-dotenv`, `gunicorn` (for deployment)
+- **Dependencies**: `flask`, `openai`, `python-dotenv`
 - **Deployment**: Render
 
 ## 📂 Project Structure
